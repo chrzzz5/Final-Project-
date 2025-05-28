@@ -13,25 +13,25 @@
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: #283618;
+    background-color: #1e3a8a; /* dark blue background */
 }
-    h1 {
-    color: #f4a261;
-    text-align: center;
-    background-color: #283618;
-    padding: 20px 0px;
 
+h1 {
+    color: #93c5fd; /* light blue text */
+    text-align: center;
+    background-color: #1e3a8a; /* match container background */
+    padding: 20px 0px;
 }
 
 .digit {
     font-size: 50px;
-    color: #fff;
+    color: #dbeafe; /* very light blue/white */
     margin: 0px 0px;
 }
 
 .txt {
     font-size: 30px;
-    color: #fff;
+    color: #dbeafe;
     margin: 0px 10px;
 }
 
@@ -43,31 +43,25 @@
     width: 100px;
     padding: 10px 15px;
     margin: 0px 20px;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 50px;
+    border-radius: 50px;
     cursor: pointer;
     font-size: 20px;
     transition: 0.5s;
     color: white;
     font-weight: 500;
-    border: solid white;  
+    border: solid #93c5fd; /* light blue border */
+    background-color: #1e40af; /* medium blue button background */
 }
 
-#start {
-    background-color: #03071e;
+.btn:hover {
+    background-color: #3b82f6; /* lighter blue on hover */
+    border-color: #bfdbfe; /* even lighter border on hover */
 }
 
-#stop {
-    background-color: #03071e;
+#start, #stop, #reset {
+    background-color: #1e40af; /* consistent blue for all buttons */
 }
-
-#reset {
-    background-color: #03071e;
-}  
 </style>
-  
   
   <body>
     <div class="container">
@@ -96,9 +90,7 @@
     </div>
   </div>
 </body> 
-</html>
-
-   
+</html>   
 <script>
 let startBtn = document.getElementById('start');
 let stopBtn = document.getElementById('stop');
