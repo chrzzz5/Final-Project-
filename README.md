@@ -23,6 +23,7 @@ Three JavaScript projects I created (some in collaboration) using CodePen.
 
 
 
+
 Featured Projects:
 
 Stopwatch App
@@ -33,7 +34,7 @@ Connect 4
 The classic Connect 4 game with a twist since tokens don’t fall all the way to the bottom. Better have a good strategy.
 
 
-Links
+Links:
 
 GitHub Repository: https://github.com/chrzzz5/Final-Project-
 
